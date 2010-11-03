@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1110, 479}}";
+			sepNavSelRange = "{148, 0}";
+			sepNavVisRange = "{0, 444}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* NoisyAppAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 1014}}";
+			sepNavSelRange = "{1863, 0}";
+			sepNavVisRange = "{1779, 89}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* NoisyApp_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1110, 397}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 147}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4FE0BEC1128058AF00F91DCB /* NoisyApp */;
+		activeTarget = 8D1107260486CEB800E47090 /* NoisyApp */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* NoisyApp */,
+		);
+		codeSenseManager = 4FE0BED7128058C400F91DCB /* Code sense */;
+		executables = (
+			4FE0BEC1128058AF00F91DCB /* NoisyApp */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					932,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					892,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 310401199;
+			PBXWorkspaceStateSaveDate = 310401199;
+		};
+		perUserProjectItems = {
+			4FE0BECE128058C400F91DCB /* PBXTextBookmark */ = 4FE0BECE128058C400F91DCB /* PBXTextBookmark */;
+			4FE0BECF128058C400F91DCB /* PBXBookmark */ = 4FE0BECF128058C400F91DCB /* PBXBookmark */;
+			4FE0BED0128058C400F91DCB /* PlistBookmark */ = 4FE0BED0128058C400F91DCB /* PlistBookmark */;
+			4FE0BF2C12806BDB00F91DCB /* PBXTextBookmark */ = 4FE0BF2C12806BDB00F91DCB /* PBXTextBookmark */;
+			4FE0BF2D12806BDB00F91DCB /* XCBuildMessageTextBookmark */ = 4FE0BF2D12806BDB00F91DCB /* XCBuildMessageTextBookmark */;
+			4FE0BF2E12806BDB00F91DCB /* PBXTextBookmark */ = 4FE0BF2E12806BDB00F91DCB /* PBXTextBookmark */;
+			4FE0BF2F12806BE300F91DCB /* PBXTextBookmark */ = 4FE0BF2F12806BE300F91DCB /* PBXTextBookmark */;
+			4FE0BF3012806BE300F91DCB /* XCBuildMessageTextBookmark */ = 4FE0BF3012806BE300F91DCB /* XCBuildMessageTextBookmark */;
+			4FE0BF3112806BE300F91DCB /* PBXTextBookmark */ = 4FE0BF3112806BE300F91DCB /* PBXTextBookmark */;
+			4FE0BF3412806BEE00F91DCB /* PlistBookmark */ = 4FE0BF3412806BEE00F91DCB /* PlistBookmark */;
+			4FE0BF3512806BEE00F91DCB /* PBXTextBookmark */ = 4FE0BF3512806BEE00F91DCB /* PBXTextBookmark */;
+			4FE0BF3712806BEE00F91DCB /* PBXTextBookmark */ = 4FE0BF3712806BEE00F91DCB /* PBXTextBookmark */;
+			4FE0BF3812806BEE00F91DCB /* PBXTextBookmark */ = 4FE0BF3812806BEE00F91DCB /* PBXTextBookmark */;
+			4FE0BF3912806BEE00F91DCB /* PBXTextBookmark */ = 4FE0BF3912806BEE00F91DCB /* PBXTextBookmark */;
+			4FE0BF3A12806BEE00F91DCB /* PBXTextBookmark */ = 4FE0BF3A12806BEE00F91DCB /* PBXTextBookmark */;
+			4FE0BF3B12806BEE00F91DCB /* XCBuildMessageTextBookmark */ = 4FE0BF3B12806BEE00F91DCB /* XCBuildMessageTextBookmark */;
+			4FE0BF3C12806BEE00F91DCB /* PBXTextBookmark */ = 4FE0BF3C12806BEE00F91DCB /* PBXTextBookmark */;
+			4FE0BF3F12806BFF00F91DCB /* PBXTextBookmark */ = 4FE0BF3F12806BFF00F91DCB /* PBXTextBookmark */;
+			4FE0BF441280C77200F91DCB /* PBXTextBookmark */ = 4FE0BF441280C77200F91DCB /* PBXTextBookmark */;
+			4FE0BF451280C77300F91DCB /* PBXTextBookmark */ = 4FE0BF451280C77300F91DCB /* PBXTextBookmark */;
+			4FE0BF4B1280C7AA00F91DCB /* PBXTextBookmark */ = 4FE0BF4B1280C7AA00F91DCB /* PBXTextBookmark */;
+			4FE0BF4D1280C7B300F91DCB /* PBXTextBookmark */ = 4FE0BF4D1280C7B300F91DCB /* PBXTextBookmark */;
+			4FE0BF821280C7CE00F91DCB /* PBXTextBookmark */ = 4FE0BF821280C7CE00F91DCB /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4FE0BED6128058C400F91DCB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1110, 397}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 256}";
+		};
+	};
+	4FE0BEC1128058AF00F91DCB /* NoisyApp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = NoisyApp;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	4FE0BECE128058C400F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	4FE0BECF128058C400F91DCB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* NoisyApp-Info.plist */;
+	};
+	4FE0BED0128058C400F91DCB /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* NoisyApp-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/phajas/Source/Noisy/NoisyApp/NoisyApp-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	4FE0BED6128058C400F91DCB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4FE0BED7128058C400F91DCB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4FE0BEEE12805BC200F91DCB /* iTunes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3239, 6773}}";
+			sepNavSelRange = "{1089, 0}";
+			sepNavVisRange = "{0, 1281}";
+		};
+	};
+	4FE0BF2C12806BDB00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* NoisyAppAppDelegate.m */;
+		name = "NoisyAppAppDelegate.m: 57";
+		rLen = 0;
+		rLoc = 1560;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 1379;
+	};
+	4FE0BF2D12806BDB00F91DCB /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Statically allocated instance of Objective-C class 'NSTimer'";
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 15;
+		rType = 1;
+	};
+	4FE0BF2E12806BDB00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */;
+		name = "NoisyAppAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 317;
+		rType = 0;
+		vrLen = 277;
+		vrLoc = 193;
+	};
+	4FE0BF2F12806BE300F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */;
+		name = "NoisyAppAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 317;
+		rType = 0;
+		vrLen = 277;
+		vrLoc = 193;
+	};
+	4FE0BF3012806BE300F91DCB /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of class 'NoisyAppAppDelegate'";
+		fRef = 256AC3D90F4B6AC300CF3369 /* NoisyAppAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 74;
+		rType = 1;
+	};
+	4FE0BF3112806BE300F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* NoisyAppAppDelegate.m */;
+		name = "NoisyAppAppDelegate.m: 75";
+		rLen = 0;
+		rLoc = 1863;
+		rType = 0;
+		vrLen = 89;
+		vrLoc = 1779;
+	};
+	4FE0BF3412806BEE00F91DCB /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* NoisyApp-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/phajas/Source/Noisy/NoisyApp/NoisyApp-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	4FE0BF3512806BEE00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4FE0BF3612806BEE00F91DCB /* iTunes.h */;
+		name = "iTunes.h: 14";
+		rLen = 0;
+		rLoc = 764;
+		rType = 0;
+		vrLen = 1281;
+		vrLoc = 0;
+	};
+	4FE0BF3612806BEE00F91DCB /* iTunes.h */ = {
+		isa = PBXFileReference;
+		name = iTunes.h;
+		path = /Users/phajas/iTunes.h;
+		sourceTree = "<absolute>";
+	};
+	4FE0BF3712806BEE00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 256;
+		vrLoc = 0;
+	};
+	4FE0BF3812806BEE00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* NoisyApp_Prefix.pch */;
+		name = "NoisyApp_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 147;
+		vrLoc = 0;
+	};
+	4FE0BF3912806BEE00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4FE0BEEE12805BC200F91DCB /* iTunes.h */;
+		name = "iTunes.h: 24";
+		rLen = 0;
+		rLoc = 1089;
+		rType = 0;
+		vrLen = 1281;
+		vrLoc = 0;
+	};
+	4FE0BF3A12806BEE00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* NoisyAppAppDelegate.m */;
+		name = "NoisyAppAppDelegate.m: 72";
+		rLen = 0;
+		rLoc = 1859;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 988;
+	};
+	4FE0BF3B12806BEE00F91DCB /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Statically allocated instance of Objective-C class 'NSTimer'";
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 15;
+		rType = 1;
+	};
+	4FE0BF3C12806BEE00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */;
+		name = "NoisyAppAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 394;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	4FE0BF3F12806BFF00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */;
+		name = "NoisyAppAppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	4FE0BF441280C77200F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* NoisyAppAppDelegate.m */;
+		name = "NoisyAppAppDelegate.m: 75";
+		rLen = 0;
+		rLoc = 1863;
+		rType = 0;
+		vrLen = 89;
+		vrLoc = 1779;
+	};
+	4FE0BF451280C77300F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */;
+		name = "NoisyAppAppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	4FE0BF4B1280C7AA00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */;
+		name = "NoisyAppAppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	4FE0BF4D1280C7B300F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */;
+		name = "NoisyAppAppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	4FE0BF821280C7CE00F91DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoisyAppAppDelegate.h */;
+		name = "NoisyAppAppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* NoisyApp */ = {
+		activeExec = 0;
+		executables = (
+			4FE0BEC1128058AF00F91DCB /* NoisyApp */,
+		);
+	};
+}
