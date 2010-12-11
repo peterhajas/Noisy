@@ -6,7 +6,7 @@
 //  Copyright 2010 Peter Hajas Software. All rights reserved.
 //
 
-#define TIMETOAUTOPLAY 600.0
+#define TIMETOAUTOPLAY 3.0
 
 #import "NoisyAppAppDelegate.h"
 
@@ -30,9 +30,10 @@
 - (void)runOnTimer
 {
 	//First, check if iTunes is running
-	
+	NSLog(@"Timer!");
 	if([iTunes isRunning])
 	{
+		NSLog(@"It's running!");
 		//Check to see if iTunes is playing
 		//If it isn't, and this is the first time we've seen it not play, start a timer to autoplay it again.
 		if([iTunes playerState] == iTunesIsPlaying)
@@ -44,10 +45,8 @@
 			//Aha! There is disparity! Check to see if the player was paused, or started playing...
 			if([iTunes playerState] == iTunesEPlSPlaying)
 			{
-				//The user hit "play" before our timer expired. Destroy it, and set iTunesIsPlaying back
-				
-				//Destroy timer
-				
+				//The user hit "play" before our timer expired. Set iTunesIsPlaying back.
+				[tuneTimer invalidate];
 				//Set iTunesIsPlaying
 				iTunesIsPlaying = [iTunes playerState];
 			}
