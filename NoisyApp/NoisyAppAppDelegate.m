@@ -13,9 +13,16 @@
 @implementation NoisyAppAppDelegate
 
 @synthesize hud;
+@synthesize menu;
+@synthesize timeDisplay;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification 
 {
+	//Instantiate a status bar item
+	statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSSquareStatusItemLength];
+	[statusItem setImage:[NSImage imageNamed:NSImageNameAddTemplate]];
+	[statusItem setMenu:menu];
+	
 	//Grab the iTunes application
 	iTunes = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];
 	if([iTunes isRunning])
@@ -25,12 +32,12 @@
 	
 	//Every 5 seconds, let's check if iTunes is playing. If it is not, start another timer to autoplay it in 5 minutes
 	[NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(runOnTimer) userInfo:nil repeats:YES];
+	[NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(checkupOnTimer) userInfo:nil repeats:YES];
 }
 
 - (void)runOnTimer
 {
 	//First, check if iTunes is running
-	NSLog(@"Timer!");
 	if([iTunes isRunning])
 	{
 		NSLog(@"It's running!");
@@ -63,11 +70,30 @@
 	}
 }
 
+- (void)checkupOnTimer
+{
+	NSLog(@"%f", [[tuneTimer fireDate] timeIntervalSinceNow]);
+}
+
 - (void)playMusic
 {
 	if(iTunesEPlSPaused)
 	{
 		[iTunes playpause];
+	}
+}
+
+- (IBAction)toggleNoisy:(id)sender
+{
+	if([NSApp isHidden])
+	{
+		NSLog(@"it's hidden!");
+		[NSApp unhide:NSApp];
+		[hud makeKeyAndOrderFront:sender];
+	}
+	else
+	{
+		[NSApp hide:NSApp];
 	}
 }
 

@@ -13,14 +13,24 @@
 	NSPanel *hud;
 	iTunesApplication *iTunes;
 	
+	NSStatusItem *statusItem;
+	NSMenu *menu;
+	NSTextField *timeDisplay;
+	
 	NSTimer *tuneTimer;
+	NSTimer *timerCheckupTimer;
 	
 	BOOL iTunesIsPlaying;
 }
 
 - (void)runOnTimer;
+- (void)checkupOnTimer;
+
 - (void)playMusic;
+- (IBAction)toggleNoisy:(id)sender;
 
 @property (assign) IBOutlet NSPanel *hud;
+@property (assign) IBOutlet NSMenu *menu;
+@property (assign) IBOutlet NSTextField *timeDisplay;
 
 @end
